@@ -1,0 +1,182 @@
+extend layout
+
+block content
+  #resume
+    p
+    #accordion
+      h3 
+        a(href="#")= "*Résumé"
+      div
+        p
+        | I am not currently persuing any job opportunities or offers at this time. I am quite happy at my current position with TiKL, Inc. Please refer to the 
+        a(href='http://feigdev.com/blogs/1')= "about page" 
+        |  of my blog for a brief bio. I may be contacted at 
+        a(href="mailto:ejohn@feigdev.com")= "ejohn (at) feigdev (dot) com"
+        | . Click on the sections below to expand them.
+        p
+
+      h3 
+        a(href="#")= "*Skills"
+      div
+        p
+          dl
+            dt Computer Languages and Platforms
+              dd Proficient in Java, Android, Python, JavaScript
+              dd Used in the last few years: Node.js, Jade, NoSQL, Clojure, Appcelerator Titanium, C++, SQL, Ruby, Ruby on Rails, Sed, Awk, SVN, LATEX, XML
+              dd Used more than a few years ago: C, PLC Ladder Logic, PyQt, PySqlite, MATLAB, 68HC11 Assembly
+            dt Operating Systems
+              dd Android, Linux (Amazon AMI, CentOS, Ubuntu, Arch Linux), Mac OS X, Windows
+  
+      h3 
+        a(href="#")= "*Projects"
+      div
+        p
+          dl
+            dt
+              b
+                a(href="http://github.com/emil10001")= "Sample Projects hosted on GitHub"
+                | - Feig Dev, Inc.
+              dd 
+                em May 2010 - Present
+              dd - Wrote lots of small github projects, designed to demonstrate various components of Android.
+              dd - A method for authenticating with Pinterest on Android using HTML screen scraping.
+              dd - A simple demonstration of how to share things on android from the stock browser, gallery or camera.
+              dd - Projects that demonstrate various parts of the Android UI,Android e.g. ActionBar and Fragments.
+              dd - A visual cruise control Android app. User sets the desired average speed, the screen will display current and average speeds and change colors between red and green if the user is above or below the desired average.
+              dd - Simple android audio file player.
+              dd - There’s also a zombie game that I wrote in Java a couple of years ago for some reason.
+            dt 
+              b
+                a(href="http://feigdev.com")= "Feig Dev, Inc."
+              dd
+                em Jan 2011 - Present
+              dd - This site. This is my company's website. Originally built from scratch in Ruby on Rails, recently re-written for Node.js. It's not much of a web app, but it gets the job done for what I need it to do.
+            dt
+              b
+                a(href="http://pind.feigdev.com")= "Pin'd"
+                | - Feig Dev, Inc.
+              dd 
+                em Feb 2012 - May 2012
+              dd - Pinterest android client, using Pinterest API.
+              dd - Defunct when Pinterest locked down their API.
+              dd - The app utilizes the Pinterest API to provide the user with public data, and search results. Implements endless scrolling, where the next set of data is requested multiple times until a set limit is reached. The app also authenticates users and allows them to pin, repin, like and comment on items.
+              dd 
+                |- Open sourced on 
+                a(href="https://github.com/emil10001/Pind")= "github"
+                | .
+            dt
+              b
+                a(href="http://feigdev.com/blogs/3")= "Image Scraper Demo"
+                | - Feig Dev, Inc.
+              dd
+                em Mar 2012
+              dd - Test app for sharing from the browser and scraping the web page for images. This code will be used in my Pin’d app for creating new pins.
+            dt 
+              b
+                a(href="http://redditmail.feigdev.com")= "Reddit Mail"
+                | - Feig Dev, Inc.
+              dd
+                em Feb 2012
+              dd - An Android app that communicates with Reddit’s API to allow users to quickly access their Reddit Mail.
+            dt
+              b
+                a(href="http://feigdev.com/projects")= "All other projects"
+                | - Feig Dev, Inc.
+              dd
+                em Spring 2010 - Present
+              dd - All of my projects are listed on the projects page.
+  
+      h3 
+        a(href="#")= "*Experience"
+      div
+        p
+          dl
+            dt
+              b TiKL, Inc.
+              | - Sunnyvale, CA
+              dd
+                em Software Engineer: June 2012 - Present
+              dd - Responsible for the frontend of the Android Talkray client. This includes the initial layout of the entire application such that it matched the iOS version in design and function. As well as development of the Activities, Fragments, custom UI components and supporting UI code for a large portion of the app. 
+              dd - Contirbuted to TiKL codebase with code that was run by millions of users.
+              dd 
+                | - Built 
+                a(href="http://talkray.com")= "Talkray website"
+                | , using the ParallaxJS library. Worked with a designer to polish UI and interactions. 
+              dd 
+                | Oversaw production of Talkray promotional video, as seen on 
+                a(href="http://talkray.com")= "talkray.com"
+                | .
+              dd Contributed to server components, built on Tomcat, and re-configured the AMI being used on Amazon's ElasticBeanstalk to promote server stability.
+            dt
+              b Feig Dev, Inc./Self Employed
+              | - Somerville, MA and Delray Beach, FL
+              dd 
+                em Owner, Consultant, Project Manager, Software Engineer: May 2010 - June 2012
+              dd - Built mobile app in JavaScript using Appcelerator's Titanium SDK. The app ran on iOS and Android, and was delivered to the client.
+              dd - Built 3rd-party Pinterest app for Android, called Pin'd
+              dd - Built and launched Reddit Mail. Reddit Mail is available in the Android market.
+              dd - Designed and wrote an Android app for a location based service. App polls GPS for current location and uploads to a service. GPS polling is done in the background, and there are several modes that the app will choose from based on a response from the server. App uses many parts of the Android SDK including location, network communication, file I/O, database and asynchronous internal messaging. ChildGuard was written for a client, and is available in the Android market.
+              dd - Wrote lots of small github projects, designed to demonstrate various components of Android.
+              dd - Built a mobile, embedded prototype device in one week. Wrote all the software to automate an embedded Linux system to allow it to boot and start running a custom interface, with the output dialog shown on a small lcd screen. The device also automatically registered itself on a mobile network, and polled a usb device for data.
+              dd - Contributed to automated data analysis tool written in Python.
+              dd - Previously responsible for delivery of all a client’s projects. Hiring and managing of consultants based on project needs. Keeping projects on track for timely delivery.
+              dd - Managed several Ruby on Rails projects, jumping in and coding when needed.
+              dd - Developed a simple location based app with Appcelerator’s Titanium. Later re-wrote as native Android app.
+              dd - Managed the design and development of an embedded mobile software application to replace a customer’s current solution.
+              dd - Managed the design and development of an Enterprise class call center solution. Implemented Asterisk for voice. Designed and oversaw development on the SugarCRM interface to the system. Designed and managed integration of data from a third-party database management system.
+              dd - Implemented enterprise level Asterisk voice system. Set up and configured server and phones to meet the requirements of the call center.
+              dd - Designed and coded an object oriented scripting language. It had the ability to read in objects, and arithmetic operations that could be done on those objects via a script file. The intent was to build this into a transaction processing engine, but the project died before it could be implemented. However, it worked very well in testing.
+              dd - Administered several CentOS, ArchLinux and Ubuntu Amazon EC2 instances. Fixed and deployed Rails and Java software to those instances for customer demonstrations. Managed the databases, and migrated them between instances as needed. Administer version control systems on the main development server.
+            dt
+              b Shaw Group, Inc. Energy %amp; Chemicals
+              | - Cambridge, MA
+              dd
+                em Instruments and Control Systems Engineer: July 2006 – July 2009
+              dd - Programmed Allen-Bradley PLCs using ladder logic in RSLogix. Provided the control logic for heating a chain of reactors. Developed a method of data extraction for previously unused mass scales.
+              dd - Recognized that a core document was not in line with current practices. Systematically updated and fixed the document. The result was a specification that was to be carried forward into other projects as a usable document.
+              dd - Tracked control instruments and input/output information using specialized database and office software on projects.
+              dd - Proposed, designed and developed custom software for calculating instrument sizing using C++ and Bash during downtime. This was mainly a learning exercise to become acquainted with the proper methods of instrument calculations, as according to official standards.
+            dt
+              b Retrotech, Inc.
+              | - Fishers, NY
+              dd
+                em Software Engineering Intern: May 2005 - Aug 2005
+              dd - Developed C software in an RHEL 4 environment, worked on many aspects of the system including back-end, internal messaging, and GUI.
+              dd - Wrote SQL scripts for testing the server after several hardware failures, learned SQL and wrote the scripts in a few hours.
+              dd - Wrote Sed and Awk scripts for manipulating thousands of lines of code, increased productivity in the short-term and long-term, learned Sed and Awk and wrote the scripts in a few hours.
+    
+      h3 
+        a(href="#")= "*Education"
+      div
+          p
+            dl
+              dt
+                b Tufts University
+                | - Medford, MA
+                dd
+                  em Community Audit Program: May 2009 - Dec 2010
+                dd - Courses Taken: Free Will, Game Development, Data Structures, Intro to Computer Science
+              dt
+                b Alfred University
+                | - Alfred, NY
+                dd
+                  em Bachelor's of Science Degree in Electrical Engineering: May 2006
+              dt
+                b State University of New York at Alfred
+                | - Alfred, NY
+                dd
+                  em Associate's of Science Degree in Engineering Science: May 2004
+    
+      h3 
+        a(href="#")= "*Activities"
+      div
+          p
+            ul
+              li Board Member for Somerville Local First (2011)
+              li Coffee Roaster. Hopefully you will get to try some (2008 – Present)
+              li Philosophy blogger. Writing about Free Will and related topics. (2010 - Present)
+              li S.T.E.P. Lab Assistant at Alfred University. Assisted students with building engineering projects (2004 – 2006).
+              li President of IEEE (Institute of Electrical and Electronics Engineers) at Alfred University (2005 – 2006).
+              li President and Founder of AU Destructors (Robotics Club) at Alfred University (2005 – 2006).
+              li Secretary of Tau Beta Pi Honor Society at Alfred University (2005 – 2006).
+              li Member of Jazz Band at SUNY at Alfred (2002 – 2006).
